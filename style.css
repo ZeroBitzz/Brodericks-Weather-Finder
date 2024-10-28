@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  body {
+    background-color: rgb(22, 22, 22);
+    color: white;
+  }
+  
+  ::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: white;
+  }
+  
+  ::selection {
+    color: black;
+    background: white;
+  }
+  
+  .App {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  
+  .location-input {
+    background-color: transparent;
+    font-size: 3vw;
+    color: white;
+    border: 1px solid rgb(69, 69, 69);
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
+  }
+  
+  .weather-icon {
+    width: 80px;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  h3{
+    font-size: 2.1vw;
+}
+
+.day-forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(69, 69, 69);
+    border-radius: 20px;
+    width: 100%;
+    height: 5vw;
+    padding: 12px;
+}
+.day-forecast img {
+    width: 50px;
+    margin-left: 10px;
+}
+.day-forecast span {
+    margin-right: 10px;
+    font-size: 1.4vw;
+}
+
+.five-day-forecast {
+    width: 20%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.weather-temp-icon-group {
+    display: flex;
+    flex-direction: row;
+}
+
+hr {
+    width: 90%;
+    margin-top: -40px;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .day-forecast img{
+        display: none;
+    }
+}
+
+.history-and-facts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.history span {
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+.history span:hover {
+    cursor: pointer;
+    background-color: rgb(69,69,69);
+}
+
+.search-history-h2 {
+    margin-top: -20px;
+}
+
+.thermostat {
+    background-color: transparent;
+    border: 1px solid rgb(69,69,69);
+    border-radius: 10px;
+    font-size: 1.3vw;
+    color: white;
+    width: 60%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.facts {
+    margin-top: -40px;
+}
+
+/* removes arrows on input tag */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{ /* for firefox */
+    -moz-appearance: textfield;
+}
+
+/* breakpoints */
+@media only screen and (max-width: 600px) {
+    .history-and-facts{
+        display: none;
+    }
+}
