@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7532.9 3398.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-554.3" y1="617.2" x2="14097.1" y2="3851.9" gradientTransform="translate(0 2979) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb5ff"/>
+      <stop offset="1" stop-color="#a197ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-513.3" y1="1491.2" x2="14138.1" y2="4725.9" gradientTransform="translate(0 2979) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb5ff"/>
+      <stop offset="1" stop-color="#a197ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-511.2" y1="-163.3" x2="14139.4" y2="3071.2" gradientTransform="translate(0 2979) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb5ff"/>
+      <stop offset="1" stop-color="#a197ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-609.2" y1="-936.3" x2="14041.4" y2="2298.2" gradientTransform="translate(0 2979) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb5ff"/>
+      <stop offset="1" stop-color="#a197ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_1">
+      <g id="Layer_1-2" data-name="Layer_1">
+        <path class="cls-4" d="M179.5,1480.3c17.8-173.8,1242.8-343.2,2358.1-273.2,1282.7,80.5,1252.2,404.5,2112.9,364.3,1209.1-56.5,1903.9-725.6,2540.5-508.6,50,17.1,200.7,68.4,207.3,144.3,20.6,236.5-1366.1,600.3-2735.8,584.8-1229.4-13.9-1209.1-319.3-2284.3-258.3-856.4,48.6-1598.8,283.7-2088,45.8-102.1-49.6-112.5-80.7-110.6-99.1h0Z"/>
+        <path class="cls-1" d="M220.5,606.3c17.8-173.8,1242.8-343.2,2358.1-273.2,1282.7,80.5,1252.2,404.5,2112.9,364.3,1209.1-56.5,1903.9-725.6,2540.5-508.6,50,17,200.7,68.4,207.3,144.3,20.6,236.5-1366.1,600.3-2735.8,584.8-1229.4-13.9-1209.1-319.3-2284.3-258.3-856.4,48.6-1598.8,283.7-2088,45.8-102.1-49.6-112.5-80.7-110.6-99.1h0Z"/>
+        <path class="cls-3" d="M220.5,2253.3c9.9-188.1,1417.2-251.1,2231-242.7,693,7.2,902.6,65.7,987.2,91.5,232.1,70.7,422.6,159,764.8,218.2,132.5,22.9,285.6,33.6,487.9,24.1,1209.1-56.6,1903.9-725.6,2540.5-508.6,50,17,200.7,68.4,207.3,144.3,20.5,236.5-1366.1,600.3-2735.8,584.8-1229.4-13.9-1209.1-319.3-2284.3-258.3-856.4,48.6-1598.8,283.7-2088,45.8-95-46.2-111.8-76.8-110.6-99.1h0Z"/>
+        <path class="cls-2" d="M122.5,3026.3c9.9-188.1,1417.2-251.1,2231-242.7,693,7.2,902.6,65.7,987.2,91.5,232.1,70.7,422.6,159,764.8,218.2,132.5,22.9,285.6,33.6,487.9,24.1,1209.1-56.6,1903.9-725.6,2540.5-508.6,50,17.1,200.7,68.4,207.3,144.3,20.5,236.5-1366.1,600.3-2735.8,584.8-1229.4-13.9-1209.1-319.3-2284.3-258.3-856.4,48.6-1598.8,283.7-2088,45.8-95-46.2-111.8-76.8-110.6-99.1h0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
