@@ -1,0 +1,83 @@
+<html>
+    <div className="App">
+        <!-- five day forecast -->
+        <div className='five-day-forecast'>
+            <div>
+                <h3>5 Day Forecast</h3>
+                <h3 id='forecast-empty-h3'>Empty, Search Something!</h3>
+            </div>
+            <hr id='forecast-hr' className='hide'/>
+                <div className='day-forecast hide' id='forecast1'>
+                    <div>
+                        <span id='forecast1-date'>Tomorrow</span>
+                    </div>
+                    <div className='weather-temp-icon-group'>
+                        <span id='1-day-forecast-weather-condition'>weather</span>
+                        <span id='1-day-forecast-temperature'>temp</span>
+                        <img src={null} id='forecast1-icon' alt='sunny icon'/>
+                    </div>
+                </div>
+
+                <div className='day-forecast hide' id='forecast2'>
+                    <div>
+                        <span id='forecast2-date'>The Next Day</span>
+                    </div>
+                    <div className='weather-temp-icon-group'>
+                        <span id='2-day-forecast-weather-condition'>weather</span>
+                        <span id='2-day-forecast-temperature'>temp</span>
+                        <img src={null} id='forecast2-icon' alt='sunny icon'/>
+                    </div>
+                </div>
+
+                <div className='day-forecast hide' id='forecast3'>
+                    <div>
+                        <span id='forecast3-date'>And the Next Day</span>
+                    </div>
+                    <div className='weather-temp-icon-group'>
+                        <span id='3-day-forecast-weather-condition'>weather</span>
+                        <span id='3-day-forecast-temperature'>temp</span>
+                        <img src={null} id='forecast3-icon' alt='sunny icon'/>
+                    </div>
+                </div>
+
+                <div className='day-forecast hide' id='forecast4'>
+                    <div>
+                        <span id='forecast4-date'>And the Next Day</span>
+                    </div>
+                    <div className='weather-temp-icon-group'>
+                        <span id='4-day-forecast-weather-condition'>weather</span>
+                        <span id='4-day-forecast-temperature'>temp</span>
+                        <img src={null} id='forecast4-icon' alt='sunny icon'/>
+                    </div>
+                </div>
+
+                <div className='day-forecast hide' id='forecast5'>
+                    <div>
+                        <span id='forecast5-date'>And the Next Day</span>
+                    </div>
+                    <div className='weather-temp-icon-group'>
+                        <span id='5-day-forecast-weather-condition'>weather</span>
+                        <span id='5-day-forecast-temperature'>temp</span>
+                        <img src={null} id='forecast5-icon' alt='sunny icon'/>
+                    </div>
+                </div>
+        </div>
+
+        <!-- main content -->
+        <div>
+          <div className='main-content'>
+            <div>
+              <h1>Brodericks Weather App</h1>
+              <form onSubmit={fetchApi}>
+                <input className='location-input' id='location-input' type='text' placeholder='Type City Here'/>
+                <h2><span id='weather-condition'>weather condition</span> / <span id='temperature'>temp</span></h2>
+                <img className='weather-icon hide' id='weather-condition-icon' src={null} alt='weather icon'/>
+                <WeathermanComponent />
+              </form>
+            </div>
+          </div>
+    
+        </div>
+        <HistoryAndFacts />
+    </div>
+</html>
